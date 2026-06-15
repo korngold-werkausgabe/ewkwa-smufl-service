@@ -1,0 +1,21 @@
+{
+  "name": "ewkwa-smufl-service",
+  "version": "0.1.0",
+  "description": "Lightweight Node/Express service exposing TEI-XML and IIIF image references for a custom SMuFL font",
+  "license": "MIT",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "jose": "^5.9.6",
+    "node-fetch": "^3.3.2",
+    "xmlbuilder2": "^3.1.1"
+  }
+}

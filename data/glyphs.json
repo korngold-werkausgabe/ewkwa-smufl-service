@@ -1,0 +1,762 @@
+[
+  {
+    "charName": "dynamicPiano",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E520",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicPiano.png"
+  },
+  {
+    "charName": "dynamicMezzo",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E521",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicMezzo.png"
+  },
+  {
+    "charName": "dynamicForte",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E522",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicForte.png"
+  },
+  {
+    "charName": "dynamicSforzando",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E524",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicSforzando.png"
+  },
+  {
+    "charName": "dynamicPPPP",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E529",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicPPPP.png"
+  },
+  {
+    "charName": "dynamicPPP",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E52A",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicPPP.png"
+  },
+  {
+    "charName": "dynamicPP",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E52B",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicPP.png"
+  },
+  {
+    "charName": "dynamicMP",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E52C",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicMP.png"
+  },
+  {
+    "charName": "dynamicMF",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E52D",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicMF.png"
+  },
+  {
+    "charName": "dynamicPF",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E52E",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicPF.png"
+  },
+  {
+    "charName": "dynamicFF",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E52F",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicFF.png"
+  },
+  {
+    "charName": "dynamicFFF",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E530",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicFFF.png"
+  },
+  {
+    "charName": "dynamicFortePiano",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E534",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicFortePiano.png"
+  },
+  {
+    "charName": "dynamicForzando",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E535",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicForzando.png"
+  },
+  {
+    "charName": "dynamicSforzando1",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E536",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicSforzando1.png"
+  },
+  {
+    "charName": "dynamicSforzandoPiano",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E537",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicSforzandoPiano.png"
+  },
+  {
+    "charName": "dynamicSforzato",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E539",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicSforzato.png"
+  },
+  {
+    "charName": "dynamicSforzatoPiano",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E53A",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicSforzatoPiano.png"
+  },
+  {
+    "charName": "dynamicSforzatoFF",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E53B",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicSforzatoFF.png"
+  },
+  {
+    "charName": "dynamicRinforzando1",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E53E",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicRinforzando1.png"
+  },
+  {
+    "charName": "dynamicRinforzando",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E523",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicRinforzando.png"
+  },
+  {
+    "charName": "dynamicZ",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E525",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicZ.png"
+  },
+  {
+    "charName": "dynamicCrescendoHairpin",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E53C",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicCrescendoHairpin.png"
+  },
+  {
+    "charName": "dynamicDiminuendoHairpin",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E53F",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "dynamicDiminuendoHairpin.png"
+  },
+  {
+    "charName": "articAccentAbove",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4A0",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "articAccentAbove.png"
+  },
+  {
+    "charName": "articTenutoAbove",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4A4",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "articTenutoAbove.png"
+  },
+  {
+    "charName": "articStaccatissimoAbove",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4A6",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "articStaccatissimoAbove.png"
+  },
+  {
+    "charName": "articMarcatoAbove",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4AC",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "articMarcatoAbove.png"
+  },
+  {
+    "charName": "articMarcatoStaccatoAbove",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4AE",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "articMarcatoStaccatoAbove.png"
+  },
+  {
+    "charName": "articAccentStaccatoAbove",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4B0",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "articAccentStaccatoAbove.png"
+  },
+  {
+    "charName": "articTenutoStaccatoAbove",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4B2",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "articTenutoStaccatoAbove.png"
+  },
+  {
+    "charName": "articTenutoAccentAbove",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4B4",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "articTenutoAccentAbove.png"
+  },
+  {
+    "charName": "accidentalDoubleFlat",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E264",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "accidentalDoubleFlat.png"
+  },
+  {
+    "charName": "accidentalFlat",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E260",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "accidentalFlat.png"
+  },
+  {
+    "charName": "accidentalNatural",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E2614",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "accidentalNatural.png"
+  },
+  {
+    "charName": "accidentalSharp",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E262",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "accidentalSharp.png"
+  },
+  {
+    "charName": "accidentalDoubleSharp",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E263",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "accidentalDoubleSharp.png"
+  },
+  {
+    "charName": "noteHalfUp",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E1D3",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "noteHalfUp.png"
+  },
+  {
+    "charName": "textBlackNoteShortStem",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E1F0",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "textBlackNoteShortStem.png"
+  },
+  {
+    "charName": "note8thUp",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E1D7",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "note8thUp.png"
+  },
+  {
+    "charName": "ornamentTrill",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E566",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "ornamentTrill.png"
+  },
+  {
+    "charName": "ornamentTurn",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E567",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "ornamentTurn.png"
+  },
+  {
+    "charName": "ornamentTurnInverted",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E568",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "ornamentTurnInverted.png"
+  },
+  {
+    "charName": "ornamentShortTrill",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E56C",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "ornamentShortTrill.png"
+  },
+  {
+    "charName": "ornamentMordent",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E56D",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "ornamentMordent.png"
+  },
+  {
+    "charName": "wiggleTrill",
+    "desc": "",
+    "codepoints": {
+      "smufl": "EAA4",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "wiggleTrill.png"
+  },
+  {
+    "charName": "brassMuteClosed",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E5E5",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "brassMuteClosed.png"
+  },
+  {
+    "charName": "brassMuteOpen",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E5E7",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "brassMuteOpen.png"
+  },
+  {
+    "charName": "fermataAbove",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4C0",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "fermataAbove.png"
+  },
+  {
+    "charName": "caesura",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4D1",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "caesura.png"
+  },
+  {
+    "charName": "breathMarkComma",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4CE",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "breathMarkComma.png"
+  },
+  {
+    "charName": "breathMarkTick",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4CF",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "breathMarkTick.png"
+  },
+  {
+    "charName": "breathMarkUpbow",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E4D0",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "breathMarkUpbow.png"
+  },
+  {
+    "charName": "timeSigCommon",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E08A",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "timeSigCommon.png"
+  },
+  {
+    "charName": "timeSigCutCommon",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E08B",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "timeSigCutCommon.png"
+  },
+  {
+    "charName": "gClef",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E050",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "gClef.png"
+  },
+  {
+    "charName": "gClef8vb",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E052",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "gClef8vb.png"
+  },
+  {
+    "charName": "gClef8va",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E053",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "gClef8va.png"
+  },
+  {
+    "charName": "cClef",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E05C",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "cClef.png"
+  },
+  {
+    "charName": "cClef8vb",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E05D",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "cClef8vb.png"
+  },
+  {
+    "charName": "fClef",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E062",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "fClef.png"
+  },
+  {
+    "charName": "fClef8vb",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E064",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "fClef8vb.png"
+  },
+  {
+    "charName": "fClef8va",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E065",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "fClef8va.png"
+  },
+  {
+    "charName": "metNoteWhole",
+    "desc": "",
+    "codepoints": {
+      "smufl": "ECA2",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "metNoteWhole.png"
+  },
+  {
+    "charName": "metNoteHalfUp",
+    "desc": "",
+    "codepoints": {
+      "smufl": "ECA3",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "metNoteHalfUp.png"
+  },
+  {
+    "charName": "metNoteQuarterUp",
+    "desc": "",
+    "codepoints": {
+      "smufl": "ECA5",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "metNoteQuarterUp.png"
+  },
+  {
+    "charName": "metNote8thUp",
+    "desc": "",
+    "codepoints": {
+      "smufl": "ECA7",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "metNote8thUp.png"
+  },
+  {
+    "charName": "metNote16thUp",
+    "desc": "",
+    "codepoints": {
+      "smufl": "ECA9",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "metNote16thUp.png"
+  },
+  {
+    "charName": "stringsHarmonic",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E614",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "stringsHarmonic.png"
+  },
+  {
+    "charName": "stringsDownBow",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E610",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "stringsDownBow.png"
+  },
+  {
+    "charName": "stringsDownBowTurned",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E611",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "stringsDownBowTurned.png"
+  },
+  {
+    "charName": "stringsUpBow",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E612",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "stringsUpBow.png"
+  },
+  {
+    "charName": "stringsUpBowTurned",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E613",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "stringsUpBowTurned.png"
+  },
+  {
+    "charName": "keyboardPedalPed",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E650",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "keyboardPedalPed.png"
+  },
+  {
+    "charName": "keyboardPedalUp",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E655",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "keyboardPedalUp.png"
+  },
+  {
+    "charName": "repeat1Bar",
+    "desc": "",
+    "codepoints": {
+      "smufl": "E500",
+      "schott": ""
+    },
+    "classes": [],
+    "graphic": "repeat1Bar.png"
+  }
+]
