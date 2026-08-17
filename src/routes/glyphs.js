@@ -9,8 +9,9 @@
  */
 
 const { Router } = require('express');
-const { getByName } = require('../services/glyphService');
+const { getByName, getAll } = require('../services/glyphService');
 const { glyphToTei } = require('../services/teiService');
+const { allGlyphsToTei } = require('../services/teiService');
 const { proxyImage } = require('../services/iiifProxy');
 const { requireKeycloakAuth } = require('../middleware/keycloakAuth');
 
@@ -46,11 +47,22 @@ function sendXml(req, res) {
   res.type('application/xml').send(xml);
 }
 
+function sendXmlAll(req, res) {
+  const allGlyphs = getAll();
+  const allGlyphsXml = allGlyphsToTei(allGlyphs);
+  res.type('application/xml').send(allGlyphsXml);
+}
+
 function sendJson(req, res) {
   const glyph = resolveGlyph(req, res);
   if (!glyph) return;
 
   res.json(glyph);
+}
+
+function sendJsonAll(req, res) {
+  const allGlyphs = getAll();
+  res.json(allGlyphs);
 }
 
 async function sendImage(req, res, next) {
@@ -68,6 +80,8 @@ async function sendImage(req, res, next) {
   }
 }
 
+router.get('/xml', sendXmlAll);
+router.get('/json', sendJsonAll);
 router.get('/:name.png', requireKeycloakAuth, sendImage);
 router.get('/:name.xml', sendXml);
 router.get('/:name.json', sendJson);

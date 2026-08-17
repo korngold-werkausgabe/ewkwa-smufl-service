@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * teiService – generates TEI P5 XML for a single SMuFL glyph.
@@ -13,9 +13,7 @@
  *  </char>
  */
 
-const { create } = require('xmlbuilder2');
-
-const TEI_GRAPHIC_BASE_URL = process.env.TEI_GRAPHIC_BASE_URL || 'https://smufl-browser.edirom.de';
+const { create } = require("xmlbuilder2");
 
 /**
  * Builds a public IIIF Image API URL for a glyph.
@@ -27,17 +25,12 @@ const TEI_GRAPHIC_BASE_URL = process.env.TEI_GRAPHIC_BASE_URL || 'https://smufl-
  * @returns {string}
  */
 function buildIiifUrl(iiifIdentifier) {
-  const server = (process.env.IIIF_SERVER_URL || '').replace(/\/$/, '');
-  const prefix = (process.env.IIIF_IMAGE_PREFIX || '').replace(/\/$/, '');
+  const server = (process.env.IIIF_SERVER_URL || "").replace(/\/$/, "");
+  const prefix = (process.env.IIIF_IMAGE_PREFIX || "").replace(/\/$/, "");
   const id = encodeURIComponent(iiifIdentifier);
-  const prefixSegment = prefix ? `/${prefix}` : '';
+  const prefixSegment = prefix ? `/${prefix}` : "";
   // Full image, max size, default rotation, color, PNG
   return `${server}${prefixSegment}/${id}/full/max/0/default.png`;
-}
-
-function buildTeiGraphicUrl(codepoint) {
-  const base = TEI_GRAPHIC_BASE_URL.replace(/\/$/, '');
-  return `${base}/${codepoint.toUpperCase()}.png`;
 }
 
 /**
@@ -47,37 +40,58 @@ function buildTeiGraphicUrl(codepoint) {
  * @returns {string}  UTF-8 XML string
  */
 function glyphToTei(glyph) {
-  const codepoint = glyph.codepoint.toUpperCase();
-  const uPlusCodepoint = `U+${codepoint}`;
-  const classes = Array.isArray(glyph.classes) ? glyph.classes : [];
+  if (!glyph || typeof glyph !== "object") {
+    throw new Error("Invalid glyph object: must be an object");
+  }
+  const root = create({ version: "1.0", encoding: "UTF-8" }).ele("char", {
+    xmlns: "http://www.tei-c.org/ns/1.0",
+    "xml:id": `_${glyph.name}`,
+  });
 
-  const root = create({ version: '1.0', encoding: 'UTF-8' })
-    .ele('char', {
-      xmlns: 'http://www.tei-c.org/ns/1.0',
-      'xml:id': `_${glyph.name}`,
-    });
+  root.ele("charName").txt(glyph.name).up();
+  root
+    .ele("desc")
+    .txt(glyph.description || "No description")
+    .up();
 
-  root.ele('charName').txt(glyph.name).up();
-  root.ele('desc').txt(glyph.description).up();
-  root.ele('mapping', { type: 'smufl' }).txt(uPlusCodepoint).up();
-  root.ele('graphic', { url: buildTeiGraphicUrl(codepoint) }).up();
+  Object.entries(glyph.codepoints).forEach(([key, value]) => {
+      let htmlEntity;
+    root.ele("mapping", { type: key }).txt(value.toUpperCase()).up();
+  });
 
-  const list = root.ele('note')
-    .ele('list')
-      .ele('head').txt('Classes').up();
+  root.ele("graphic").txt(`${glyph.name}.png`).up();
 
-  for (const className of classes) {
-    list.ele('item').txt(className).up();
+  const list = root.ele("note").ele("list").ele("head").txt("Classes").up();
+
+  (glyph.classes || []).forEach((className) => {
+    list.ele("item").txt(className).up();
+  });
+
+  if (!glyph.classes || glyph.classes.length === 0) {
+    list.ele("item").txt("uncategorized").up();
   }
 
-  if (classes.length === 0) {
-    list.ele('item').txt('uncategorized').up();
+  if (glyph.short){
+    root
+    .ele("note", {type: 'shortNotation'})
+    .txt(glyph.short)
+    .up();
   }
 
-  list
-  .up();
+  return root.end({ prettyPrint: true, headless: true });
+}
+
+function allGlyphsToTei(glyphs) {
+  const root = create({ version: "1.0", encoding: "UTF-8" });
+  const glyphsElement = root.ele("glyphs", {
+    xmlns: "http://www.tei-c.org/ns/1.0",
+  });
+
+  glyphs.forEach((glyph) => {
+    glyphsElement.ele(glyphToTei(glyph));
+  });
 
   return root.end({ prettyPrint: true });
 }
 
-module.exports = { glyphToTei, buildIiifUrl };
+module.exports = { glyphToTei, allGlyphsToTei };

@@ -21,20 +21,20 @@ const fs = require('fs');
 const DATA_PATH = path.join(__dirname, '../../data/glyphs.json');
 
 let byName = null;
-let byCodepoint = null;
+let bySmuflCodepoint = null;
+let allGlyphs = null;
 
 function normalizeGlyph(record) {
   const codepoint = String(record.codepoints?.smufl || '').toUpperCase();
-  const alt = String(record.codepoints?.schott || '').toUpperCase();
   const graphic = record.graphic || `${record.charName}.png`;
   const iiifImage = graphic.replace(/\.png$/i, '');
 
   return {
     name: record.charName,
     description: record.desc || record.charName,
-    codepoint,
-    alternateCodepoint: alt && alt !== codepoint ? alt : null,
+    codepoints: record.codepoints || {},
     classes: Array.isArray(record.classes) ? record.classes : [],
+    short: record.short || '',
     iiifImage,
   };
 }
@@ -46,18 +46,16 @@ function load() {
   const glyphs = JSON.parse(raw);
 
   byName = new Map();
-  byCodepoint = new Map();
+  bySmuflCodepoint = new Map();
 
   for (const rawGlyph of glyphs) {
     const g = normalizeGlyph(rawGlyph);
-    if (!g.name || !g.codepoint) continue;
+    if (!g.name || !g.codepoints?.smufl) continue;
 
     byName.set(g.name, g);
-    byCodepoint.set(g.codepoint.toUpperCase(), g);
-    if (g.alternateCodepoint) {
-      byCodepoint.set(g.alternateCodepoint.toUpperCase(), g);
-    }
+    bySmuflCodepoint.set(g.codepoints.smufl.toUpperCase(), g);
   }
+  allGlyphs = Array.from(byName.values());
 }
 
 /**
@@ -75,9 +73,18 @@ function getByName(name) {
  * @param {string} hex  e.g. "E0A4" or "e0a4"
  * @returns {object|null}
  */
-function getByCodepoint(hex) {
+function getBySmuflCodepoint(hex) {
   load();
-  return byCodepoint.get(hex.toUpperCase()) ?? null;
+  return bySmuflCodepoint.get(hex.toUpperCase()) ?? null;
 }
 
-module.exports = { getByName, getByCodepoint };
+/**
+ * Looks up all glyphs.
+ * @returns {object[]|null}
+ */
+function getAll(){
+  load();
+  return allGlyphs ?? null;
+}
+
+module.exports = { getByName, getBySmuflCodepoint, getAll };
