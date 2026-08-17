@@ -152,3 +152,4 @@ vite.config.ts.timestamp-*
 # Glyph image exports
 *.png
 *.svg
+.DS_Store
