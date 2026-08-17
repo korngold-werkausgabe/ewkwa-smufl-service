@@ -1,762 +1,816 @@
 [
   {
     "charName": "dynamicPiano",
-    "desc": "",
+    "desc": "Piano",
     "codepoints": {
-      "smufl": "E520",
-      "schott": ""
+      "smufl": "U+E520",
+      "standard": "U+1D18F"
     },
-    "classes": [],
-    "graphic": "dynamicPiano.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicPiano.png",
+    "short": "p"
   },
   {
     "charName": "dynamicMezzo",
-    "desc": "",
+    "desc": "Mezzo",
     "codepoints": {
-      "smufl": "E521",
-      "schott": ""
+      "smufl": "U+E521",
+      "standard": "U+1D190"
     },
-    "classes": [],
-    "graphic": "dynamicMezzo.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicMezzo.png",
+    "short": "m"
   },
   {
     "charName": "dynamicForte",
-    "desc": "",
+    "desc": "Forte",
     "codepoints": {
-      "smufl": "E522",
-      "schott": ""
+      "smufl": "U+E522",
+      "standard": "U+1D191"
     },
-    "classes": [],
-    "graphic": "dynamicForte.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicForte.png",
+    "short": "f"
   },
   {
     "charName": "dynamicSforzando",
-    "desc": "",
+    "desc": "Sforzando",
     "codepoints": {
-      "smufl": "E524",
-      "schott": ""
+      "smufl": "U+E524",
+      "standard": "U+1D18D"
     },
-    "classes": [],
-    "graphic": "dynamicSforzando.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicSforzando.png",
+    "short": "s"
   },
   {
     "charName": "dynamicPPPP",
-    "desc": "",
+    "desc": "Pianissississimo",
     "codepoints": {
-      "smufl": "E529",
-      "schott": ""
+      "smufl": "U+E529"
     },
-    "classes": [],
-    "graphic": "dynamicPPPP.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicPPPP.png",
+    "short": "pppp"
   },
   {
     "charName": "dynamicPPP",
-    "desc": "",
+    "desc": "Pianississimo",
     "codepoints": {
-      "smufl": "E52A",
-      "schott": ""
+      "smufl": "U+E52A"
     },
-    "classes": [],
-    "graphic": "dynamicPPP.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicPPP.png",
+    "short": "ppp"
   },
   {
     "charName": "dynamicPP",
-    "desc": "",
+    "desc": "Pianissimo",
     "codepoints": {
-      "smufl": "E52B",
-      "schott": ""
+      "smufl": "U+E52B"
     },
-    "classes": [],
-    "graphic": "dynamicPP.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicPP.png",
+    "short": "pp"
   },
   {
     "charName": "dynamicMP",
-    "desc": "",
+    "desc": "Mezzo-piano",
     "codepoints": {
-      "smufl": "E52C",
-      "schott": ""
+      "smufl": "U+E52C"
     },
-    "classes": [],
-    "graphic": "dynamicMP.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicMP.png",
+    "short": "mp"
   },
   {
     "charName": "dynamicMF",
-    "desc": "",
+    "desc": "Mezzo-forte",
     "codepoints": {
-      "smufl": "E52D",
-      "schott": ""
+      "smufl": "U+E52D"
     },
-    "classes": [],
-    "graphic": "dynamicMF.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicMF.png",
+    "short": "mf"
   },
   {
     "charName": "dynamicPF",
-    "desc": "",
+    "desc": "Piano-forte",
     "codepoints": {
-      "smufl": "E52E",
-      "schott": ""
+      "smufl": "U+E52E"
     },
-    "classes": [],
-    "graphic": "dynamicPF.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicPF.png",
+    "short": "pf"
   },
   {
     "charName": "dynamicFF",
-    "desc": "",
+    "desc": "Fortissimo",
     "codepoints": {
-      "smufl": "E52F",
-      "schott": ""
+      "smufl": "U+E52F"
     },
-    "classes": [],
-    "graphic": "dynamicFF.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicFF.png",
+    "short": "ff"
   },
   {
     "charName": "dynamicFFF",
-    "desc": "",
+    "desc": "Fortississimo",
     "codepoints": {
-      "smufl": "E530",
-      "schott": ""
+      "smufl": "U+E530"
     },
-    "classes": [],
-    "graphic": "dynamicFFF.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicFFF.png",
+    "short": "fff"
   },
   {
     "charName": "dynamicFortePiano",
-    "desc": "",
+    "desc": "Forte-piano",
     "codepoints": {
-      "smufl": "E534",
-      "schott": ""
+      "smufl": "U+E534"
     },
-    "classes": [],
-    "graphic": "dynamicFortePiano.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicFortePiano.png",
+    "short": "fp"
   },
   {
     "charName": "dynamicForzando",
-    "desc": "",
+    "desc": "Forzando",
     "codepoints": {
-      "smufl": "E535",
-      "schott": ""
+      "smufl": "U+E535"
     },
-    "classes": [],
-    "graphic": "dynamicForzando.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicForzando.png",
+    "short": "fz"
   },
   {
     "charName": "dynamicSforzando1",
-    "desc": "",
+    "desc": "Sforzando 1",
     "codepoints": {
-      "smufl": "E536",
-      "schott": ""
+      "smufl": "U+E536"
     },
-    "classes": [],
-    "graphic": "dynamicSforzando1.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicSforzando1.png",
+    "short": "sf"
   },
   {
     "charName": "dynamicSforzandoPiano",
-    "desc": "",
+    "desc": "Sforzando-piano",
     "codepoints": {
-      "smufl": "E537",
-      "schott": ""
+      "smufl": "U+E537"
     },
-    "classes": [],
-    "graphic": "dynamicSforzandoPiano.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicSforzandoPiano.png",
+    "short": "sfp"
   },
   {
     "charName": "dynamicSforzato",
-    "desc": "",
+    "desc": "Sforzato",
     "codepoints": {
-      "smufl": "E539",
-      "schott": ""
+      "smufl": "U+E539"
     },
-    "classes": [],
-    "graphic": "dynamicSforzato.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicSforzato.png",
+    "short": "sfz"
   },
   {
     "charName": "dynamicSforzatoPiano",
-    "desc": "",
+    "desc": "Sforzato-piano",
     "codepoints": {
-      "smufl": "E53A",
-      "schott": ""
+      "smufl": "U+E53A"
     },
-    "classes": [],
-    "graphic": "dynamicSforzatoPiano.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicSforzatoPiano.png",
+    "short": "sfzp"
   },
   {
     "charName": "dynamicSforzatoFF",
-    "desc": "",
+    "desc": "Sforzatissimo",
     "codepoints": {
-      "smufl": "E53B",
-      "schott": ""
+      "smufl": "U+E53B"
     },
-    "classes": [],
-    "graphic": "dynamicSforzatoFF.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicSforzatoFF.png",
+    "short": "sfzz"
   },
   {
     "charName": "dynamicRinforzando1",
-    "desc": "",
+    "desc": "Rinforzando 1",
     "codepoints": {
-      "smufl": "E53E",
-      "schott": ""
+      "smufl": "U+E53C"
     },
-    "classes": [],
-    "graphic": "dynamicRinforzando1.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicRinforzando1.png",
+    "short": "r"
   },
   {
     "charName": "dynamicRinforzando",
-    "desc": "",
+    "desc": "Rinforzando",
     "codepoints": {
-      "smufl": "E523",
-      "schott": ""
+      "smufl": "U+E523",
+      "standard": "U+1D18C"
     },
-    "classes": [],
-    "graphic": "dynamicRinforzando.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicRinforzando.png",
+    "short": "rf"
   },
   {
     "charName": "dynamicZ",
-    "desc": "",
+    "desc": "Z (dynamic notation)",
     "codepoints": {
-      "smufl": "E525",
-      "schott": ""
+      "smufl": "U+E525",
+      "standard": "U+1D18E"
     },
-    "classes": [],
-    "graphic": "dynamicZ.png"
+    "classes": ["dynamics"],
+    "graphic": "dynamicZ.png",
+    "short": "z"
   },
   {
     "charName": "dynamicCrescendoHairpin",
-    "desc": "",
+    "desc": "Crescendo",
     "codepoints": {
-      "smufl": "E53C",
-      "schott": ""
+      "smufl": "U+E53E",
+      "standard": "U+1D192"
     },
-    "classes": [],
-    "graphic": "dynamicCrescendoHairpin.png"
+    "classes": ["dynamics", "tf_hairpins"],
+    "graphic": "dynamicCrescendoHairpin.png",
+    "short": "<"
   },
   {
     "charName": "dynamicDiminuendoHairpin",
-    "desc": "",
+    "desc": "Diminuendo",
     "codepoints": {
-      "smufl": "E53F",
-      "schott": ""
+      "smufl": "U+E53F",
+      "standard": "U+1D193"
     },
-    "classes": [],
-    "graphic": "dynamicDiminuendoHairpin.png"
+    "classes": ["dynamics", "tf_hairpins"],
+    "graphic": "dynamicDiminuendoHairpin.png",
+    "short": ">"
   },
   {
     "charName": "articAccentAbove",
-    "desc": "",
+    "desc": "Accent above",
     "codepoints": {
-      "smufl": "E4A0",
-      "schott": ""
+      "smufl": "U+E4A0",
+      "standard": "U+1D17B"
     },
-    "classes": [],
-    "graphic": "articAccentAbove.png"
+    "classes": [
+      "articulations",
+      "articulationsAbove",
+      "combiningStaffPositions"
+    ],
+    "graphic": "articAccentAbove.png",
+    "short": "acc"
   },
   {
     "charName": "articTenutoAbove",
-    "desc": "",
+    "desc": "Tenuto above",
     "codepoints": {
-      "smufl": "E4A4",
-      "schott": ""
+      "smufl": "U+E4A4",
+      "standard": "U+1D17D"
     },
-    "classes": [],
-    "graphic": "articTenutoAbove.png"
+    "classes": [
+      "articulations",
+      "articulationsAbove",
+      "combiningStaffPositions"
+    ],
+    "graphic": "articTenutoAbove.png",
+    "short": "ten"
   },
   {
     "charName": "articStaccatissimoAbove",
-    "desc": "",
+    "desc": "Staccatissimo above",
     "codepoints": {
-      "smufl": "E4A6",
-      "schott": ""
+      "smufl": "U+E4A6",
+      "standard": "U+1D17F"
     },
-    "classes": [],
-    "graphic": "articStaccatissimoAbove.png"
+    "classes": [
+      "articulations",
+      "articulationsAbove",
+      "combiningStaffPositions"
+    ],
+    "graphic": "articStaccatissimoAbove.png",
+    "short": "stacc"
   },
   {
     "charName": "articMarcatoAbove",
-    "desc": "",
+    "desc": "Marcato above",
     "codepoints": {
-      "smufl": "E4AC",
-      "schott": ""
+      "smufl": "U+E4AC",
+      "standard": "U+1D180"
     },
-    "classes": [],
-    "graphic": "articMarcatoAbove.png"
+    "classes": [
+      "articulations",
+      "articulationsAbove",
+      "combiningStaffPositions"
+    ],
+    "graphic": "articMarcatoAbove.png",
+    "short": "marc"
   },
   {
     "charName": "articMarcatoStaccatoAbove",
-    "desc": "",
+    "desc": "Marcato-staccato above",
     "codepoints": {
-      "smufl": "E4AE",
-      "schott": ""
+      "smufl": "U+E4AE",
+      "standard": "U+1D180"
     },
-    "classes": [],
-    "graphic": "articMarcatoStaccatoAbove.png"
+    "classes": [
+      "articulations",
+      "articulationsAbove",
+      "combiningStaffPositions"
+    ],
+    "graphic": "articMarcatoStaccatoAbove.png",
+    "short": "marcStacc"
   },
   {
     "charName": "articAccentStaccatoAbove",
-    "desc": "",
+    "desc": "Accent-staccato above",
     "codepoints": {
-      "smufl": "E4B0",
-      "schott": ""
+      "smufl": "U+E4B0"
     },
-    "classes": [],
-    "graphic": "articAccentStaccatoAbove.png"
+    "classes": ["articulations", "articulationsAbove"],
+    "graphic": "articAccentStaccatoAbove.png",
+    "short": "accStacc"
   },
   {
     "charName": "articTenutoStaccatoAbove",
-    "desc": "",
+    "desc": "Louré (tenuto-staccato) above",
     "codepoints": {
-      "smufl": "E4B2",
-      "schott": ""
+      "smufl": "U+E4B2"
     },
-    "classes": [],
-    "graphic": "articTenutoStaccatoAbove.png"
+    "classes": ["articulations", "articulationsAbove"],
+    "graphic": "articTenutoStaccatoAbove.png",
+    "short": "tenStacc"
   },
   {
     "charName": "articTenutoAccentAbove",
-    "desc": "",
+    "desc": "Tenuto-accent above",
     "codepoints": {
-      "smufl": "E4B4",
-      "schott": ""
+      "smufl": "U+E4B4"
     },
-    "classes": [],
-    "graphic": "articTenutoAccentAbove.png"
+    "classes": ["articulations", "articulationsAbove"],
+    "graphic": "articTenutoAccentAbove.png",
+    "short": "tenAcc"
   },
   {
     "charName": "accidentalDoubleFlat",
-    "desc": "",
+    "desc": "Double flat",
     "codepoints": {
-      "smufl": "E264",
-      "schott": ""
+      "smufl": "U+E264",
+      "standard": "U+1D12B"
     },
-    "classes": [],
-    "graphic": "accidentalDoubleFlat.png"
+    "classes": ["accidentals"],
+    "graphic": "accidentalDoubleFlat.png",
+    "short": "bb"
   },
   {
     "charName": "accidentalFlat",
-    "desc": "",
+    "desc": "Flat",
     "codepoints": {
-      "smufl": "E260",
-      "schott": ""
+      "smufl": "U+E260",
+      "standard": "U+266D"
     },
-    "classes": [],
-    "graphic": "accidentalFlat.png"
+    "classes": ["accidentals"],
+    "graphic": "accidentalFlat.png",
+    "short": "b"
   },
   {
     "charName": "accidentalNatural",
-    "desc": "",
+    "desc": "Natural",
     "codepoints": {
-      "smufl": "E2614",
-      "schott": ""
+      "smufl": "U+E261",
+      "standard": "U+266E"
     },
-    "classes": [],
-    "graphic": "accidentalNatural.png"
+    "classes": ["accidentals"],
+    "graphic": "accidentalNatural.png",
+    "short": "nat"
   },
   {
     "charName": "accidentalSharp",
-    "desc": "",
+    "desc": "Sharp",
     "codepoints": {
-      "smufl": "E262",
-      "schott": ""
+      "smufl": "U+E262",
+      "standard": "U+266F"
     },
-    "classes": [],
-    "graphic": "accidentalSharp.png"
+    "classes": ["accidentals"],
+    "graphic": "accidentalSharp.png",
+    "short": "#"
   },
   {
     "charName": "accidentalDoubleSharp",
-    "desc": "",
+    "desc": "Double sharp",
     "codepoints": {
-      "smufl": "E263",
-      "schott": ""
+      "smufl": "U+E263",
+      "standard": "U+1D12A"
     },
-    "classes": [],
-    "graphic": "accidentalDoubleSharp.png"
+    "classes": ["accidentals"],
+    "graphic": "accidentalDoubleSharp.png",
+    "short": "##"
   },
   {
     "charName": "noteHalfUp",
-    "desc": "",
+    "desc": "Half note (minim) stem up",
     "codepoints": {
-      "smufl": "E1D3",
-      "schott": ""
+      "smufl": "U+E1D3"
     },
-    "classes": [],
-    "graphic": "noteHalfUp.png"
+    "classes": ["noteValues"],
+    "graphic": "noteHalfUp.png",
+    "short": "note2"
   },
   {
     "charName": "textBlackNoteShortStem",
-    "desc": "",
+    "desc": "Black note, short stem",
     "codepoints": {
-      "smufl": "E1F0",
-      "schott": ""
+      "smufl": "U+E1F0"
     },
-    "classes": [],
-    "graphic": "textBlackNoteShortStem.png"
+    "classes": ["noteValues"],
+    "graphic": "textBlackNoteShortStem.png",
+    "short": "note4"
   },
   {
     "charName": "note8thUp",
-    "desc": "",
+    "desc": "Eighth note (quaver) stem up",
     "codepoints": {
-      "smufl": "E1D7",
-      "schott": ""
+      "smufl": "U+E1D7"
     },
-    "classes": [],
-    "graphic": "note8thUp.png"
+    "classes": ["noteValues"],
+    "graphic": "note8thUp.png",
+    "short": "note8"
   },
   {
     "charName": "ornamentTrill",
-    "desc": "",
+    "desc": "Trill",
     "codepoints": {
-      "smufl": "E566",
-      "schott": ""
+      "smufl": "U+E566",
+      "standard": "U+1D196"
     },
-    "classes": [],
-    "graphic": "ornamentTrill.png"
+    "classes": ["ornaments"],
+    "graphic": "ornamentTrill.png",
+    "short": "tr"
   },
   {
     "charName": "ornamentTurn",
-    "desc": "",
+    "desc": "Turn",
     "codepoints": {
-      "smufl": "E567",
-      "schott": ""
+      "smufl": "U+E567",
+      "standard": "U+1D197"
     },
-    "classes": [],
-    "graphic": "ornamentTurn.png"
+    "classes": ["ornaments"],
+    "graphic": "ornamentTurn.png",
+    "short": "turn"
   },
   {
     "charName": "ornamentTurnInverted",
-    "desc": "",
+    "desc": "Inverted turn",
     "codepoints": {
-      "smufl": "E568",
-      "schott": ""
+      "smufl": "U+E568",
+      "standard": "U+1D198"
     },
-    "classes": [],
-    "graphic": "ornamentTurnInverted.png"
+    "classes": ["ornaments"],
+    "graphic": "ornamentTurnInverted.png",
+    "short": "turnInv"
   },
   {
     "charName": "ornamentShortTrill",
-    "desc": "",
+    "desc": "Short (prall) trill",
     "codepoints": {
-      "smufl": "E56C",
-      "schott": ""
+      "smufl": "U+E56C",
+      "standard": "U+1D199"
     },
-    "classes": [],
-    "graphic": "ornamentShortTrill.png"
+    "classes": ["ornaments"],
+    "graphic": "ornamentShortTrill.png",
+    "short": "trillShort"
   },
   {
     "charName": "ornamentMordent",
-    "desc": "",
+    "desc": "Mordent",
     "codepoints": {
-      "smufl": "E56D",
-      "schott": ""
+      "smufl": "U+E56D",
+      "standard": "U+1D19A"
     },
-    "classes": [],
-    "graphic": "ornamentMordent.png"
+    "classes": ["ornaments"],
+    "graphic": "ornamentMordent.png",
+    "short": "mordent"
   },
   {
     "charName": "wiggleTrill",
-    "desc": "",
+    "desc": "Trill wiggle segment",
     "codepoints": {
-      "smufl": "EAA4",
-      "schott": ""
+      "smufl": "U+EAA4"
     },
-    "classes": [],
-    "graphic": "wiggleTrill.png"
+    "classes": ["wiggles"],
+    "graphic": "wiggleTrill.png",
+    "short": "trillWiggle"
   },
   {
     "charName": "brassMuteClosed",
-    "desc": "",
+    "desc": "Brass, muted (closed)",
     "codepoints": {
-      "smufl": "E5E5",
-      "schott": ""
+      "smufl": "U+E5E5"
     },
-    "classes": [],
-    "graphic": "brassMuteClosed.png"
+    "classes": ["brassTechniques"],
+    "graphic": "brassMuteClosed.png",
+    "short": "brassMuteClosed"
   },
   {
     "charName": "brassMuteOpen",
-    "desc": "",
+    "desc": "Brass, muted (half-closed)",
     "codepoints": {
-      "smufl": "E5E7",
-      "schott": ""
+      "smufl": "U+E5E7"
     },
-    "classes": [],
-    "graphic": "brassMuteOpen.png"
+    "classes": ["brassTechniques"],
+    "graphic": "brassMuteOpen.png",
+    "short": "brassMuteOpen"
   },
   {
     "charName": "fermataAbove",
-    "desc": "",
+    "desc": "Fermata above",
     "codepoints": {
-      "smufl": "E4C0",
-      "schott": ""
+      "smufl": "U+E4C0",
+      "standard": "U+1D110"
     },
-    "classes": [],
-    "graphic": "fermataAbove.png"
+    "classes": ["holdsAndPauses"],
+    "graphic": "fermataAbove.png",
+    "short": "fermataAbove"
   },
   {
     "charName": "caesura",
-    "desc": "",
+    "desc": "Caesura",
     "codepoints": {
-      "smufl": "E4D1",
-      "schott": ""
+      "smufl": "U+E4D1"
     },
-    "classes": [],
-    "graphic": "caesura.png"
+    "classes": ["holdsAndPauses"],
+    "graphic": "caesura.png",
+    "short": "caesura"
   },
   {
     "charName": "breathMarkComma",
-    "desc": "",
+    "desc": "Breath mark (comma)",
     "codepoints": {
-      "smufl": "E4CE",
-      "schott": ""
+      "smufl": "U+E4CE"
     },
-    "classes": [],
-    "graphic": "breathMarkComma.png"
+    "classes": ["holdsAndPauses"],
+    "graphic": "breathMarkComma.png",
+    "short": "breath"
   },
   {
     "charName": "breathMarkTick",
-    "desc": "",
+    "desc": "Breath mark (tick)",
     "codepoints": {
-      "smufl": "E4CF",
-      "schott": ""
+      "smufl": "U+E4CF"
     },
-    "classes": [],
-    "graphic": "breathMarkTick.png"
+    "classes": ["holdsAndPauses"],
+    "graphic": "breathMarkTick.png",
+    "short": "breathMarkTick"
   },
   {
     "charName": "breathMarkUpbow",
-    "desc": "",
+    "desc": "Breath mark (upbow-style)",
     "codepoints": {
-      "smufl": "E4D0",
-      "schott": ""
+      "smufl": "U+E4D0"
     },
-    "classes": [],
-    "graphic": "breathMarkUpbow.png"
+    "classes": ["holdsAndPauses"],
+    "graphic": "breathMarkUpbow.png",
+    "short": "breathMarkUpbow"
   },
   {
     "charName": "timeSigCommon",
-    "desc": "",
+    "desc": "Time signature, common time",
     "codepoints": {
-      "smufl": "E08A",
-      "schott": ""
+      "smufl": "U+E08A",
+      "standard": "U+1D134"
     },
-    "classes": [],
-    "graphic": "timeSigCommon.png"
+    "classes": ["timeSignatures"],
+    "graphic": "timeSigCommon.png",
+    "short": "C"
   },
   {
     "charName": "timeSigCutCommon",
-    "desc": "",
+    "desc": "Time signature, cut time",
     "codepoints": {
-      "smufl": "E08B",
-      "schott": ""
+      "smufl": "U+E08B",
+      "standard": "U+1D135"
     },
-    "classes": [],
-    "graphic": "timeSigCutCommon.png"
+    "classes": ["timeSignatures"],
+    "graphic": "timeSigCutCommon.png",
+    "short": "cCut"
   },
   {
     "charName": "gClef",
-    "desc": "",
+    "desc": "G clef",
     "codepoints": {
-      "smufl": "E050",
-      "schott": ""
+      "smufl": "U+E050",
+      "standard": "U+1D11E"
     },
-    "classes": [],
-    "graphic": "gClef.png"
+    "classes": ["clefs"],
+    "graphic": "gClef.png",
+    "short": "gClef"
   },
   {
     "charName": "gClef8vb",
-    "desc": "",
+    "desc": "G clef ottava bassa",
     "codepoints": {
-      "smufl": "E052",
-      "schott": ""
+      "smufl": "U+E052"
     },
-    "classes": [],
-    "graphic": "gClef8vb.png"
+    "classes": ["clefs"],
+    "graphic": "gClef8vb.png",
+    "short": "gClef8vb"
   },
   {
     "charName": "gClef8va",
-    "desc": "",
+    "desc": "G clef ottava alta",
     "codepoints": {
-      "smufl": "E053",
-      "schott": ""
+      "smufl": "U+E053"
     },
-    "classes": [],
-    "graphic": "gClef8va.png"
+    "classes": ["clefs"],
+    "graphic": "gClef8va.png",
+    "short": "gClef8va"
   },
   {
     "charName": "cClef",
-    "desc": "",
+    "desc": "C clef",
     "codepoints": {
-      "smufl": "E05C",
-      "schott": ""
+      "smufl": "U+E05C",
+      "standard": "U+1D121"
     },
-    "classes": [],
-    "graphic": "cClef.png"
+    "classes": ["clefs"],
+    "graphic": "cClef.png",
+    "short": "cClef"
   },
   {
     "charName": "cClef8vb",
-    "desc": "",
+    "desc": "C clef ottava bassa",
     "codepoints": {
-      "smufl": "E05D",
-      "schott": ""
+      "smufl": "U+E05D"
     },
-    "classes": [],
-    "graphic": "cClef8vb.png"
+    "classes": ["clefs"],
+    "graphic": "cClef8vb.png",
+    "short": "cClef8vb"
   },
   {
     "charName": "fClef",
-    "desc": "",
+    "desc": "F clef",
     "codepoints": {
-      "smufl": "E062",
-      "schott": ""
+      "smufl": "U+E062",
+      "standard": "U+1D122"
     },
-    "classes": [],
-    "graphic": "fClef.png"
+    "classes": ["clefs"],
+    "graphic": "fClef.png",
+    "short": "fClef"
   },
   {
     "charName": "fClef8vb",
-    "desc": "",
+    "desc": "F clef ottava bassa",
     "codepoints": {
-      "smufl": "E064",
-      "schott": ""
+      "smufl": "U+E064"
     },
-    "classes": [],
-    "graphic": "fClef8vb.png"
+    "classes": ["clefs"],
+    "graphic": "fClef8vb.png",
+    "short": "fClef8vb"
   },
   {
     "charName": "fClef8va",
-    "desc": "",
+    "desc": "F clef ottava alta",
     "codepoints": {
-      "smufl": "E065",
-      "schott": ""
+      "smufl": "U+E065"
     },
-    "classes": [],
-    "graphic": "fClef8va.png"
+    "classes": ["clefs"],
+    "graphic": "fClef8va.png",
+    "short": "fClef8va"
   },
   {
     "charName": "metNoteWhole",
-    "desc": "",
+    "desc": "Metrical proportion, whole note",
     "codepoints": {
-      "smufl": "ECA2",
-      "schott": ""
+      "smufl": "U+ECA2"
     },
-    "classes": [],
-    "graphic": "metNoteWhole.png"
+    "classes": ["metronomeMarks"],
+    "graphic": "metNoteWhole.png",
+    "short": "metNoteWhole"
   },
   {
     "charName": "metNoteHalfUp",
-    "desc": "",
+    "desc": "Metrical proportion, half note",
     "codepoints": {
-      "smufl": "ECA3",
-      "schott": ""
+      "smufl": "U+ECA3"
     },
-    "classes": [],
-    "graphic": "metNoteHalfUp.png"
+    "classes": ["metronomeMarks"],
+    "graphic": "metNoteHalfUp.png",
+    "short": "metNoteHalfUp"
   },
   {
     "charName": "metNoteQuarterUp",
-    "desc": "",
+    "desc": "Metrical proportion, quarter note",
     "codepoints": {
-      "smufl": "ECA5",
-      "schott": ""
+      "smufl": "U+ECA5"
     },
-    "classes": [],
-    "graphic": "metNoteQuarterUp.png"
+    "classes": ["metronomeMarks"],
+    "graphic": "metNoteQuarterUp.png",
+    "short": "metNoteQuarterUp"
   },
   {
     "charName": "metNote8thUp",
-    "desc": "",
+    "desc": "Metrical proportion, 8th note",
     "codepoints": {
-      "smufl": "ECA7",
-      "schott": ""
+      "smufl": "U+ECA7"
     },
-    "classes": [],
-    "graphic": "metNote8thUp.png"
+    "classes": ["metronomeMarks"],
+    "graphic": "metNote8thUp.png",
+    "short": "metNote8thUp"
   },
   {
     "charName": "metNote16thUp",
-    "desc": "",
+    "desc": "Metrical proportion, 16th note",
     "codepoints": {
-      "smufl": "ECA9",
-      "schott": ""
+      "smufl": "U+ECA9"
     },
-    "classes": [],
-    "graphic": "metNote16thUp.png"
+    "classes": ["metronomeMarks"],
+    "graphic": "metNote16thUp.png",
+    "short": "metNote16thUp"
   },
   {
     "charName": "stringsHarmonic",
-    "desc": "",
+    "desc": "String symbol, harmonic",
     "codepoints": {
-      "smufl": "E614",
-      "schott": ""
+      "smufl": "U+E614"
     },
-    "classes": [],
-    "graphic": "stringsHarmonic.png"
+    "classes": ["stringTechniques"],
+    "graphic": "stringsHarmonic.png",
+    "short": "stringsHarmonic"
   },
   {
     "charName": "stringsDownBow",
-    "desc": "",
+    "desc": "String down bow",
     "codepoints": {
-      "smufl": "E610",
-      "schott": ""
+      "smufl": "U+E610",
+      "standard": "U+1D1AA"
     },
-    "classes": [],
-    "graphic": "stringsDownBow.png"
+    "classes": ["stringTechniques"],
+    "graphic": "stringsDownBow.png",
+    "short": "stringsDownBow"
   },
   {
     "charName": "stringsDownBowTurned",
-    "desc": "",
+    "desc": "String down bow, turned",
     "codepoints": {
-      "smufl": "E611",
-      "schott": ""
+      "smufl": "U+E611"
     },
-    "classes": [],
-    "graphic": "stringsDownBowTurned.png"
+    "classes": ["stringTechniques"],
+    "graphic": "stringsDownBowTurned.png",
+    "short": "stringsDownBowTurned"
   },
   {
     "charName": "stringsUpBow",
-    "desc": "",
+    "desc": "String up bow",
     "codepoints": {
-      "smufl": "E612",
-      "schott": ""
+      "smufl": "U+E612",
+      "standard": "U+1D1AB"
     },
-    "classes": [],
-    "graphic": "stringsUpBow.png"
+    "classes": ["stringTechniques"],
+    "graphic": "stringsUpBow.png",
+    "short": "stringsUpBow"
   },
   {
     "charName": "stringsUpBowTurned",
-    "desc": "",
+    "desc": "String up bow, turned",
     "codepoints": {
-      "smufl": "E613",
-      "schott": ""
+      "smufl": "U+E613"
     },
-    "classes": [],
-    "graphic": "stringsUpBowTurned.png"
+    "classes": ["stringTechniques"],
+    "graphic": "stringsUpBowTurned.png",
+    "short": "stringsUpBowTurned"
   },
   {
     "charName": "keyboardPedalPed",
-    "desc": "",
+    "desc": "Keyboard pedal mark, Ped.",
     "codepoints": {
-      "smufl": "E650",
-      "schott": ""
+      "smufl": "U+E650",
+      "standard": "U+1D1AE"
     },
-    "classes": [],
-    "graphic": "keyboardPedalPed.png"
+    "classes": ["keyboardTechniques"],
+    "graphic": "keyboardPedalPed.png",
+    "short": "keyboardPedalPed"
   },
   {
     "charName": "keyboardPedalUp",
-    "desc": "",
+    "desc": "Keyboard pedal up mark",
     "codepoints": {
-      "smufl": "E655",
-      "schott": ""
+      "smufl": "U+E655",
+      "standard": "U+1D1AF"
     },
-    "classes": [],
-    "graphic": "keyboardPedalUp.png"
+    "classes": ["keyboardTechniques"],
+    "graphic": "keyboardPedalUp.png",
+    "short": "keyboardPedalUp"
   },
   {
     "charName": "repeat1Bar",
-    "desc": "",
+    "desc": "Repeat sign, 1 bar",
     "codepoints": {
-      "smufl": "E500",
-      "schott": ""
+      "smufl": "U+E500",
+      "standard": "U+1D106"
     },
-    "classes": [],
-    "graphic": "repeat1Bar.png"
+    "classes": ["repeats"],
+    "graphic": "repeat1Bar.png",
+    "short": "repeat1Bar"
   }
 ]
