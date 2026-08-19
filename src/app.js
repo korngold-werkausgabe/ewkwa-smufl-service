@@ -2,12 +2,19 @@
 
 require('dotenv').config();
 
+const path = require('path');
 const express = require('express');
 const glyphsRouter = require('./routes/glyphs');
 const codepointsRouter = require('./routes/codepoints');
 const authRouter = require('./routes/auth');
 
 const app = express();
+const localBravuraDir = path.join(
+  __dirname,
+  'assets/bravura'
+);
+
+app.use('/glyph-fonts', express.static(localBravuraDir));
 
 // ── Middleware ──────────────────────────────────────────────────────────────
 app.use(express.json());

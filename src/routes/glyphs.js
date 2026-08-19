@@ -74,10 +74,23 @@ function escapeHtml(value) {
     .replace(/'/g, '&#039;');
 }
 
+function codepointToGlyph(codepoint) {
+  const value = String(codepoint || '').replace(/^U\+/i, '').replace(/^0x/i, '');
+  if (!/^[0-9A-Fa-f]{4,5}$/.test(value)) return '—';
+
+  try {
+    return String.fromCodePoint(parseInt(value, 16));
+  } catch {
+    return '—';
+  }
+}
+
 function sendOverview(_req, res) {
   const glyphs = getAll();
 
   const rows = glyphs.map((glyph) => {
+    const smuflValue = glyph.codepoints?.smufl || '—';
+    const renderedGlyph = codepointToGlyph(smuflValue);
     const codepoints = Object.entries(glyph.codepoints || {})
       .map(([label, value]) => `${label}: ${value}`)
       .join('<br>');
@@ -87,6 +100,8 @@ function sendOverview(_req, res) {
     return `
       <tr>
         <td>${nameLink}</td>
+        <td class="glyph-cell"><span class="glyph-preview" title="${escapeHtml(smuflValue)}">${renderedGlyph}</span></td>
+        <td class="glyph-code">${escapeHtml(smuflValue)}</td>
         <td>${escapeHtml(glyph.description || '')}</td>
         <td>${codepoints ? codepoints : '—'}</td>
         <td>${escapeHtml(classes)}</td>
@@ -99,11 +114,44 @@ function sendOverview(_req, res) {
     <meta charset="utf-8" />
     <title>SMuFL Glyph Overview</title>
     <style>
+      @font-face {
+        font-family: "Bravura";
+        src: url("/glyph-fonts/Bravura.woff2") format("woff2"),
+             url("/glyph-fonts/Bravura.woff") format("woff");
+        font-display: swap;
+      }
+
+      * {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      ::selection {
+        background: transparent;
+      }
+
       body { font-family: sans-serif; margin: 2rem; }
-      table { border-collapse: collapse; width: 100%; max-width: 1200px; }
+      table { border-collapse: collapse; width: 100%; max-width: 1400px; }
       th, td { border: 1px solid #d0d0d0; padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; }
       th { background: #f5f5f5; }
       a { color: #0057b8; }
+      .glyph-cell {
+        width: 4rem;
+        text-align: center;
+      }
+      .glyph-preview {
+        display: inline-block;
+        min-width: 2.5rem;
+        font-family: "Bravura", "Segoe UI Symbol", sans-serif;
+        font-size: 2.25rem;
+        line-height: 1;
+        color: #111;
+      }
+      .glyph-code {
+        font-family: monospace;
+        white-space: nowrap;
+      }
       code { font-family: monospace; }
     </style>
   </head>
@@ -114,6 +162,8 @@ function sendOverview(_req, res) {
       <thead>
         <tr>
           <th>Name</th>
+          <th>Glyph</th>
+          <th>Codepoint</th>
           <th>Description</th>
           <th>Codepoints</th>
           <th>Classes</th>
