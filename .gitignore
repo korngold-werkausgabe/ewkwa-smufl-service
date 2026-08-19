@@ -142,13 +142,6 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
-# ── SMuFL font assets (not public) ───────────────────────────────────────────
-# Font binaries
-*.otf
-*.ttf
-*.woff
-*.woff2
-
 # Glyph image exports
 *.png
 *.svg
