@@ -94,6 +94,16 @@
     "short": "mf"
   },
   {
+    "charName": "dynamicMezzoFortePiano",
+    "desc": "Mezzo forte followed by piano",
+    "codepoints": {
+      "smufl": "U+F001"
+    },
+    "classes": ["dynamics"],
+    "graphic": "dynamicMezzoFortePiano.png",
+    "short": "mfp"
+  },
+  {
     "charName": "dynamicPF",
     "desc": "Piano-forte",
     "codepoints": {
@@ -246,6 +256,15 @@
     "classes": ["dynamics", "tf_hairpins"],
     "graphic": "dynamicDiminuendoHairpin.png",
     "short": ">"
+  },
+  {
+    "charName": "dynamicCrescendoDecrescendo",
+    "desc": "Crescendo Decrescendo",
+    "codepoints": {
+      "smufl": "U+F002"
+    },
+    "classes": ["dynamics"],
+    "short": "< >"
   },
   {
     "charName": "articAccentAbove",
@@ -438,6 +457,16 @@
     "short": "note8"
   },
   {
+    "charName": "noteDotted8th16th",
+    "desc": "Dotted 8th note with 16th",
+    "codepoints": {
+      "smufl": "U+F006"
+    },
+    "classes": ["noteValues"],
+    "graphic": "noteDotted8th16th.png",
+    "short": "dotted8th16th"
+  },
+  {
     "charName": "ornamentTrill",
     "desc": "Trill",
     "codepoints": {
@@ -447,6 +476,15 @@
     "classes": ["ornaments"],
     "graphic": "ornamentTrill.png",
     "short": "tr"
+  },
+  {
+    "charName": "ornamentTrillWithWiggle",
+    "desc": "Trill with wiggle",
+    "codepoints": {
+      "smufl": "U+F003"
+    },
+    "classes": "ornaments",
+    "short": "tr ~"
   },
   {
     "charName": "ornamentTurn",
@@ -532,6 +570,16 @@
     "classes": ["holdsAndPauses"],
     "graphic": "fermataAbove.png",
     "short": "fermataAbove"
+  },
+  {
+    "charName": "fermataInParenthesise",
+    "desc": "Fermata in parenthesise",
+    "codepoints": {
+      "smufl": "U+F007"
+    },
+    "classes": ["holdsAndPauses"],
+    "graphic": "fermataInParenthesise.png",
+    "short": "(fermata)"
   },
   {
     "charName": "caesura",
@@ -812,5 +860,63 @@
     "classes": ["repeats"],
     "graphic": "repeat1Bar.png",
     "short": "repeat1Bar"
+  },
+  {
+    "charName": "restQuater",
+    "desc": "Quarter rest",
+    "codepoints": {
+      "smufl": "U+E4E5"
+    },
+    "classes": ["rests"],
+    "graphic": "restQuater.png",
+    "short": "restQuater"
+  },
+  {
+    "charName": "rest8th",
+    "desc": "Eighth rest",
+    "codepoints": {
+      "smufl": "U+E4E6"
+    },
+    "classes": ["rests"],
+    "graphic": "rest8th.png",
+    "short": "rest8th"
+  },
+  {
+    "charName": "dynamicSforzandoPianissimo",
+    "desc": "Sforzando followed by pianissimo",
+    "codepoints": {
+      "smufl": "U+E537;"
+    },
+    "classes": ["dynamics"],
+    "graphic": "dynamicSforzandoPianissimo.png",
+    "short": "dynamicSforzandoPianissimo"
+  },
+  {
+    "charName": "dottedHalfNote",
+    "desc": "Dotted half note",
+    "codepoints": {
+      "smufl": "U+F000"
+    },
+    "classes": ["noteValues"],
+    "graphic": "dottedHalfNote.png",
+    "short": "dottedHalfNote"
+  },
+  {
+    "charName": "clef4/4",
+    "desc": "4/4",
+    "codepoints": {
+      "smufl": "U+F004"
+    },
+    "classes": ["meters"],
+    "short": "4/4"
+  },
+  {
+    "charName": "clef9/8",
+    "desc": "9/8",
+    "codepoints": {
+      "smufl": "U+F005"
+    },
+    "classes": ["meters"],
+    "short": "9/8"
   }
 ]
