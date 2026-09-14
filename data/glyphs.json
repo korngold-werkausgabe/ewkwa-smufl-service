@@ -134,6 +134,16 @@
     "short": "fff"
   },
   {
+    "charName": "dynamicFFFF",
+    "desc": "ffff",
+    "codepoints": {
+      "smufl": "U+E531"
+    },
+    "classes": ["dynamics"],
+    "graphic": "dynamicFFFF.png",
+    "short": "ffff"
+  },
+  {
     "charName": "dynamicFortePiano",
     "desc": "Forte-piano",
     "codepoints": {
@@ -172,6 +182,16 @@
     "classes": ["dynamics"],
     "graphic": "dynamicSforzandoPiano.png",
     "short": "sfp"
+  },
+  {
+    "charName": "dynamicSforzatoFF",
+    "desc": "Sforzatissimo",
+    "codepoints": {
+      "smufl": "U+E53B"
+    },
+    "classes": ["dynamics"],
+    "graphic": "dynamicSforzatoFF.png",
+    "short": "sffz"
   },
   {
     "charName": "dynamicSforzato",
@@ -370,6 +390,16 @@
     "classes": ["articulations", "articulationsAbove"],
     "graphic": "articTenutoAccentAbove.png",
     "short": "tenAcc"
+  },
+  {
+    "charName": "articSoftAccentAbove",
+    "desc": "Soft accent above",
+    "codepoints": {
+      "smufl": "U+ED40"
+    },
+    "classes": ["articulations", "articulationsAbove"],
+    "graphic": "articSoftAccentAbove.png",
+    "short": "softAccent"
   },
   {
     "charName": "accidentalDoubleFlat",
